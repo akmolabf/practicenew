@@ -1,0 +1,93 @@
+
+div, span, a, h1, h2, h3, h4, h5, p, ul, li, section, article, ol, label, textarea {
+
+}
+html {
+  font-size: 65.5%;
+}
+body {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 0;
+  background: rgb(55, 99, 105) url(https://oir.mobi/uploads/posts/2020-01/1579280167_22-37.jpg) no-repeat center fixed;
+  background-size: 100%;
+}
+/*Main-logo*/
+.main-logo{
+  width: 50px;
+  height: 39px;
+  display: inline-block;
+  text-align: center;
+}
+/*Navbar-footer*/
+.navbar-footer {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+  top: 0px;
+  left: 0;
+  border: 2px darkgray;
+}
+.navbar-footer .item {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+  font: bold 1.8rem 'Roboto Condensed', "Javanese Text", sans-serif;
+  padding: 8px 9px;
+  align-items: normal;
+  text-transform: full-width;
+  margin: 0 20px;
+  display: inline-block;
+}
+
+.item:hover {
+  border-bottom: 2px solid #5a75fc;
+}
+/*end*/
+
+/*Box*/
+.Box1{
+  font-family: 'Roboto Condensed', "Javanese Text", sans-serif;
+  margin-top: 140px;
+  margin-left: 10%;
+  padding-top: 30px;
+  left: 11.2%;
+  background-color: #fff;
+  display: grid;
+  width: 80%;
+  position: static;
+  z-index: 2;
+  top: 20%;
+  border: 2px darkgray;
+}
+.Box1 .items{
+  color: rgb(215, 214, 214);
+  font: bold 1.8rem 'Roboto Condensed', "Javanese Text", sans-serif;
+  width: 80%;
+  margin-left: 120px;
+}
+{
+  box-sizing: border-box;
+}
+.Box{
+  padding-top: 60px;
+  left: 11.2%;
+  background-color: #fff;
+  display: flex;
+  align-items: normal;
+  justify-content: center;
+  width: 80%;
+  position: static;
+  z-index: 2;
+  top: 20%;
+  border: 2px darkgray;
+}
+.icons {
+  width: 40px;
+  margin-right: 20px;
+}
+
+/*Made by CS-2110 group members(Margulan Zhumabek, Aruzhan Kadralinova, Akzhan Mataev)*/

@@ -1,0 +1,142 @@
+div, span, a, h1, h2, h3, h4, h5, p, ul, li, section, article, ol, label, textarea {
+
+}
+html {
+  font-size: 65.5%;
+}
+body {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 0;
+  background: rgb(55, 99, 105) url(https://oir.mobi/uploads/posts/2020-01/1579280167_22-37.jpg) no-repeat center fixed;
+  background-size: 100%;
+}
+/*Main-logo*/
+.main-logo{
+  width: 50px;
+  height: 39px;
+  display: inline-block;
+  text-align: center;
+}
+
+/*navbar*/
+.navbar-footer {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+  top: 0px;
+  left: 0;
+  border: 2px darkgray;
+}
+.navbar-footer .item {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+  font: bold 1.8rem 'Roboto Condensed', "Javanese Text", sans-serif;
+  padding: 8px 9px;
+  align-items: normal;
+  text-transform: full-width;
+  margin: 0 20px;
+  display: inline-block;
+}
+.item:hover {
+  border-bottom: 2px solid #5a75fc;
+}
+/*end*/
+
+/*box*/
+.box{
+  margin-top: 140px;
+  margin-left: 10%;
+  padding-top: 30px;
+  left: 11.2%;
+  background-color: #fff;
+  display: grid;
+  align-items: normal;
+  justify-content: center;
+  width: 80%;
+  position: static;
+  z-index: 2;
+  top: 20%;
+  border: 2px darkgray;
+}
+{
+  box-sizing: border-box;
+}
+
+.box product-item {
+  width: 80%;
+  text-align: center;
+  margin: 20px;
+  margin-top: 150px;
+  border-bottom: 2px solid rgba(61, 128, 217, 0.87);
+  background: #376369;
+  font-family: "Open Sans";
+  transition: .3s ease-in;
+}
+.product-item:hover {
+  border-bottom: 2px solid #fc5a5a;
+}
+.product-item img {
+  display: block;
+  width: 100%;
+}
+.product-list {
+  background: #fafafa;
+  padding: 15px 0;
+}
+.product-list h3 {
+  font: bold 1.8rem 'Roboto Condensed', "Javanese Text", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #444444;
+  margin: 0 0 10px 0;
+}
+.product-list h1 {
+  font: bold 1.8rem 'Roboto Condensed', "Javanese Text", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #444444;
+  margin: 0 0 10px 0;
+}
+.product-list h2 {
+  font: bold 1.8rem 'Roboto Condensed', "Javanese Text", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #444444;
+  margin: 0 0 10px 0;
+}
+.product-list h4 {
+  font: bold 1.8rem 'Roboto Condensed', "Javanese Text", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #444444;
+  margin: 0 0 10px 0;
+}
+.price {
+  font-size: 16px;
+  color: #ff4106;
+  display: block;
+  margin-bottom: 12px;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 12px;
+  background: rgba(61, 128, 217, 0.87);
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 28px;
+  transition: .3s ease-in;
+}
+.product-item:hover .button {
+  background: #c70036;
+}
+/*end*/
+
+
+/*Made by CS-2110 group members(Margulan Zhumabek, Aruzhan Kadralinova, Akzhan Mataev)*/
